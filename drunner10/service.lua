@@ -15,7 +15,7 @@ certvolume="drunner-${SERVICENAME}-certvolume"
 network="drunnerproxy"
 
 cmongo="mongo:3.2"
-crocket="rocket.chat:0.52.0"
+crocket="rocket.chat:0.50.0"
 
 -- addconfig( VARIABLENAME, DEFAULTVALUE, DESCRIPTION )
 addconfig("MODE","fake","LetsEncrypt mode: fake, staging, production")
